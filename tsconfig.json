@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+      "outDir": "lib",
+      "target": "ES2015",
+      "moduleResolution": "node",
+      "allowSyntheticDefaultImports": true,
+      "allowJs": true,
+      "importHelpers": true,
+      "lib": ["es2018", "DOM"],      
+      "strict": true,
+      "noImplicitAny": true,
+      "isolatedModules": true,
+      "downlevelIteration": true,
+      "declaration": true,
+      "types": ["node"]
+    },
+    "compileOnSave": false,
+    "buildOnSave": false,
+    "include": ["./src/**/*.ts"],
+    "exclude": ["**/node_modules", "**/.*/"]
+  }
+  
